@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61E6DD2B20882AF4008DF790 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E6DD2A20882AF4008DF790 /* AppDelegate.m */; };
+		61E6DD2E20882AF4008DF790 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E6DD2D20882AF4008DF790 /* ViewController.m */; };
+		61E6DD3120882AF4008DF790 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61E6DD2F20882AF4008DF790 /* Main.storyboard */; };
+		61E6DD3320882AF4008DF790 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61E6DD3220882AF4008DF790 /* Assets.xcassets */; };
+		61E6DD3620882AF4008DF790 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61E6DD3420882AF4008DF790 /* LaunchScreen.storyboard */; };
+		61E6DD3920882AF4008DF790 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E6DD3820882AF4008DF790 /* main.m */; };
+		61E6DD4320882AF5008DF790 /* LeboShoppingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E6DD4220882AF5008DF790 /* LeboShoppingTests.m */; };
+		61E6DD4E20882AF5008DF790 /* LeboShoppingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E6DD4D20882AF5008DF790 /* LeboShoppingUITests.m */; };
+		61E6DD5E20882B05008DF790 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 61E6DD5B20882B05008DF790 /* 5.png */; };
+		61E6DD5F20882B05008DF790 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 61E6DD5C20882B05008DF790 /* 3.png */; };
+		61E6DD6020882B05008DF790 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 61E6DD5D20882B05008DF790 /* 4.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61E6DD3F20882AF5008DF790 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61E6DD1E20882AF4008DF790 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61E6DD2520882AF4008DF790;
+			remoteInfo = LeboShopping;
+		};
+		61E6DD4A20882AF5008DF790 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61E6DD1E20882AF4008DF790 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61E6DD2520882AF4008DF790;
+			remoteInfo = LeboShopping;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		61E6DD2620882AF4008DF790 /* LeboShopping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeboShopping.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61E6DD2920882AF4008DF790 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		61E6DD2A20882AF4008DF790 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		61E6DD2C20882AF4008DF790 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		61E6DD2D20882AF4008DF790 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		61E6DD3020882AF4008DF790 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61E6DD3220882AF4008DF790 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61E6DD3520882AF4008DF790 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61E6DD3720882AF4008DF790 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61E6DD3820882AF4008DF790 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		61E6DD3E20882AF5008DF790 /* LeboShoppingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeboShoppingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61E6DD4220882AF5008DF790 /* LeboShoppingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeboShoppingTests.m; sourceTree = "<group>"; };
+		61E6DD4420882AF5008DF790 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61E6DD4920882AF5008DF790 /* LeboShoppingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeboShoppingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61E6DD4D20882AF5008DF790 /* LeboShoppingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeboShoppingUITests.m; sourceTree = "<group>"; };
+		61E6DD4F20882AF5008DF790 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61E6DD5B20882B05008DF790 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		61E6DD5C20882B05008DF790 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		61E6DD5D20882B05008DF790 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61E6DD2320882AF4008DF790 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61E6DD3B20882AF5008DF790 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61E6DD4620882AF5008DF790 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61E6DD1D20882AF4008DF790 = {
+			isa = PBXGroup;
+			children = (
+				61E6DD2820882AF4008DF790 /* LeboShopping */,
+				61E6DD4120882AF5008DF790 /* LeboShoppingTests */,
+				61E6DD4C20882AF5008DF790 /* LeboShoppingUITests */,
+				61E6DD2720882AF4008DF790 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61E6DD2720882AF4008DF790 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61E6DD2620882AF4008DF790 /* LeboShopping.app */,
+				61E6DD3E20882AF5008DF790 /* LeboShoppingTests.xctest */,
+				61E6DD4920882AF5008DF790 /* LeboShoppingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61E6DD2820882AF4008DF790 /* LeboShopping */ = {
+			isa = PBXGroup;
+			children = (
+				61E6DD2920882AF4008DF790 /* AppDelegate.h */,
+				61E6DD2A20882AF4008DF790 /* AppDelegate.m */,
+				61E6DD2C20882AF4008DF790 /* ViewController.h */,
+				61E6DD5C20882B05008DF790 /* 3.png */,
+				61E6DD5D20882B05008DF790 /* 4.png */,
+				61E6DD5B20882B05008DF790 /* 5.png */,
+				61E6DD2D20882AF4008DF790 /* ViewController.m */,
+				61E6DD2F20882AF4008DF790 /* Main.storyboard */,
+				61E6DD3220882AF4008DF790 /* Assets.xcassets */,
+				61E6DD3420882AF4008DF790 /* LaunchScreen.storyboard */,
+				61E6DD3720882AF4008DF790 /* Info.plist */,
+				61E6DD3820882AF4008DF790 /* main.m */,
+			);
+			path = LeboShopping;
+			sourceTree = "<group>";
+		};
+		61E6DD4120882AF5008DF790 /* LeboShoppingTests */ = {
+			isa = PBXGroup;
+			children = (
+				61E6DD4220882AF5008DF790 /* LeboShoppingTests.m */,
+				61E6DD4420882AF5008DF790 /* Info.plist */,
+			);
+			path = LeboShoppingTests;
+			sourceTree = "<group>";
+		};
+		61E6DD4C20882AF5008DF790 /* LeboShoppingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				61E6DD4D20882AF5008DF790 /* LeboShoppingUITests.m */,
+				61E6DD4F20882AF5008DF790 /* Info.plist */,
+			);
+			path = LeboShoppingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61E6DD2520882AF4008DF790 /* LeboShopping */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61E6DD5220882AF5008DF790 /* Build configuration list for PBXNativeTarget "LeboShopping" */;
+			buildPhases = (
+				61E6DD2220882AF4008DF790 /* Sources */,
+				61E6DD2320882AF4008DF790 /* Frameworks */,
+				61E6DD2420882AF4008DF790 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeboShopping;
+			productName = LeboShopping;
+			productReference = 61E6DD2620882AF4008DF790 /* LeboShopping.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61E6DD3D20882AF5008DF790 /* LeboShoppingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61E6DD5520882AF5008DF790 /* Build configuration list for PBXNativeTarget "LeboShoppingTests" */;
+			buildPhases = (
+				61E6DD3A20882AF5008DF790 /* Sources */,
+				61E6DD3B20882AF5008DF790 /* Frameworks */,
+				61E6DD3C20882AF5008DF790 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61E6DD4020882AF5008DF790 /* PBXTargetDependency */,
+			);
+			name = LeboShoppingTests;
+			productName = LeboShoppingTests;
+			productReference = 61E6DD3E20882AF5008DF790 /* LeboShoppingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		61E6DD4820882AF5008DF790 /* LeboShoppingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61E6DD5820882AF5008DF790 /* Build configuration list for PBXNativeTarget "LeboShoppingUITests" */;
+			buildPhases = (
+				61E6DD4520882AF5008DF790 /* Sources */,
+				61E6DD4620882AF5008DF790 /* Frameworks */,
+				61E6DD4720882AF5008DF790 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61E6DD4B20882AF5008DF790 /* PBXTargetDependency */,
+			);
+			name = LeboShoppingUITests;
+			productName = LeboShoppingUITests;
+			productReference = 61E6DD4920882AF5008DF790 /* LeboShoppingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61E6DD1E20882AF4008DF790 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = neo;
+				TargetAttributes = {
+					61E6DD2520882AF4008DF790 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					61E6DD3D20882AF5008DF790 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 61E6DD2520882AF4008DF790;
+					};
+					61E6DD4820882AF5008DF790 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 61E6DD2520882AF4008DF790;
+					};
+				};
+			};
+			buildConfigurationList = 61E6DD2120882AF4008DF790 /* Build configuration list for PBXProject "LeboShopping" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61E6DD1D20882AF4008DF790;
+			productRefGroup = 61E6DD2720882AF4008DF790 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61E6DD2520882AF4008DF790 /* LeboShopping */,
+				61E6DD3D20882AF5008DF790 /* LeboShoppingTests */,
+				61E6DD4820882AF5008DF790 /* LeboShoppingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61E6DD2420882AF4008DF790 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61E6DD6020882B05008DF790 /* 4.png in Resources */,
+				61E6DD3620882AF4008DF790 /* LaunchScreen.storyboard in Resources */,
+				61E6DD5E20882B05008DF790 /* 5.png in Resources */,
+				61E6DD5F20882B05008DF790 /* 3.png in Resources */,
+				61E6DD3320882AF4008DF790 /* Assets.xcassets in Resources */,
+				61E6DD3120882AF4008DF790 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61E6DD3C20882AF5008DF790 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61E6DD4720882AF5008DF790 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61E6DD2220882AF4008DF790 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61E6DD2E20882AF4008DF790 /* ViewController.m in Sources */,
+				61E6DD3920882AF4008DF790 /* main.m in Sources */,
+				61E6DD2B20882AF4008DF790 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61E6DD3A20882AF5008DF790 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61E6DD4320882AF5008DF790 /* LeboShoppingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61E6DD4520882AF5008DF790 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61E6DD4E20882AF5008DF790 /* LeboShoppingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61E6DD4020882AF5008DF790 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61E6DD2520882AF4008DF790 /* LeboShopping */;
+			targetProxy = 61E6DD3F20882AF5008DF790 /* PBXContainerItemProxy */;
+		};
+		61E6DD4B20882AF5008DF790 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61E6DD2520882AF4008DF790 /* LeboShopping */;
+			targetProxy = 61E6DD4A20882AF5008DF790 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		61E6DD2F20882AF4008DF790 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61E6DD3020882AF4008DF790 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		61E6DD3420882AF4008DF790 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61E6DD3520882AF4008DF790 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61E6DD5020882AF5008DF790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		61E6DD5120882AF5008DF790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61E6DD5320882AF5008DF790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7EC8VJYFX3;
+				INFOPLIST_FILE = LeboShopping/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RD.voithDMS.LeboShopping;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61E6DD5420882AF5008DF790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7EC8VJYFX3;
+				INFOPLIST_FILE = LeboShopping/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RD.voithDMS.LeboShopping;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		61E6DD5620882AF5008DF790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7EC8VJYFX3;
+				INFOPLIST_FILE = LeboShoppingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RD.voithDMS.LeboShoppingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeboShopping.app/LeboShopping";
+			};
+			name = Debug;
+		};
+		61E6DD5720882AF5008DF790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7EC8VJYFX3;
+				INFOPLIST_FILE = LeboShoppingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RD.voithDMS.LeboShoppingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeboShopping.app/LeboShopping";
+			};
+			name = Release;
+		};
+		61E6DD5920882AF5008DF790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7EC8VJYFX3;
+				INFOPLIST_FILE = LeboShoppingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RD.voithDMS.LeboShoppingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LeboShopping;
+			};
+			name = Debug;
+		};
+		61E6DD5A20882AF5008DF790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7EC8VJYFX3;
+				INFOPLIST_FILE = LeboShoppingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RD.voithDMS.LeboShoppingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LeboShopping;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61E6DD2120882AF4008DF790 /* Build configuration list for PBXProject "LeboShopping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61E6DD5020882AF5008DF790 /* Debug */,
+				61E6DD5120882AF5008DF790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61E6DD5220882AF5008DF790 /* Build configuration list for PBXNativeTarget "LeboShopping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61E6DD5320882AF5008DF790 /* Debug */,
+				61E6DD5420882AF5008DF790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61E6DD5520882AF5008DF790 /* Build configuration list for PBXNativeTarget "LeboShoppingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61E6DD5620882AF5008DF790 /* Debug */,
+				61E6DD5720882AF5008DF790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61E6DD5820882AF5008DF790 /* Build configuration list for PBXNativeTarget "LeboShoppingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61E6DD5920882AF5008DF790 /* Debug */,
+				61E6DD5A20882AF5008DF790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61E6DD1E20882AF4008DF790 /* Project object */;
+}
